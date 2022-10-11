@@ -7,7 +7,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import requests
 import telebot
 
-token = "1915558086:AAG43LE9qtXzCaIdLS--_qEJrH17MK31VyM"
+token = "your_telegram_bot_token"
 tb = telebot.TeleBot(token)
 #browser = webdriver.Firefox(executable_path='/Users/nick/PycharmProjects/alicante/Drivers/geckodriver')
 browser = webdriver.Chrome('/Users/nick/PycharmProjects/alicante/Drivers/chromedriver')
